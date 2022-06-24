@@ -1,0 +1,80 @@
+
+
+-----------------------------------------------
+NOVOPlasty: The Organelle Assembler
+Version 4.3.1
+Author: Nicolas Dierckxsens, (c) 2015-2020
+-----------------------------------------------
+
+
+Input parameters from the configuration file:   *** Verify if everything is correct ***
+
+Project:
+----------------------
+Project name          = preAdjust
+Type                  = chloro
+Genome range          = 120000-220000
+K-mer                 = 33
+Max memory            = 
+Extended log          = 0
+Save assembled reads  = no
+Seed Input            = mySeedSequence.fasta
+Extend seed directly  = no
+Reference sequence    = 
+Variance detection    = 
+Chloroplast sequence  = 
+
+Dataset 1:
+----------------------
+Read Length           = 301
+Insert size           = 300
+Platform              = illumina
+Single/Paired         = PE
+Combined reads        = 
+Forward reads         = mappedF12_reads_R1_reduced.fastq
+Reverse reads         = mappedF12_reads_R2_reduced.fastq
+Store Hash            = 
+
+Heteroplasmy:
+-----------------------
+Heteroplasmy          = 
+HP exclude list       = 
+PCR-free              = 
+
+Optional:
+----------------------
+Insert size auto      = yes
+Use Quality Scores    = 
+Output path           = 
+
+Subsampled fraction: 100.00 %
+
+Retrieve Seed...
+
+Initial read retrieved successfully: TATTGATTCTCTCCCAATTGGTTGGATCGTAGGTGCGATGATTTACTTCACGGGCGAGGTCTCTGGTTCAAGTCCAGGATGGCCCAGCTGTGCCAGGGAAAAGAATAGAAGAAGCATCTGACTCCTTCATGCATGCTCCACTTGGCTCGGGGGATATAGCTCAGTTGGTAGAGCTCCGCTCTTGCAATTGGGTCGTTGCGATTACGGGTTGGATGTCTAATTGTCCAGGCGGTAATGATAGTATCTTGTACCTGAACCGGTGGCTCACTTTTTCTAAGTAATGG
+
+Start Assembly...
+
+
+------------Assembly 1 finished: Contigs are automatically merged in Merged_contigs file------------
+
+Contig 01                  : 56405 bp
+Contig 02                  : 12292 bp
+Contig 03                  : 23694 bp
+Contig 04                  : 306 bp
+Contig 05                  : 357 bp
+
+Total contigs              : 5
+Largest contig             : 56405 bp
+Smallest contig            : 306 bp
+Average insert size        : 356 bp
+
+
+-----------------------------------------Input data metrics-----------------------------------------
+
+Total reads                : 599994
+Aligned reads              : 397516
+Assembled reads            : 300582
+
+-----------------------------------------------------------------------------------------------------
+

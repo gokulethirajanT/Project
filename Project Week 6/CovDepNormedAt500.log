@@ -1,0 +1,117 @@
+java -ea -Xmx5768m -Xms5768m -cp /mnt/c/Users/sinag/Documents/Git/ifabi-2021/bbmap/current/ jgi.KmerNormalize bits=32 in=mappedF12_reads_R1_reduced.fastq in2=mappedF12_reads_R2_reduced.fastq out=plastomeReads_CovDepNormedAt500_R1.fastq out2=plastomeReads_CovDepNormedAt500_R2.fastq min=0 target=403
+Executing jgi.KmerNormalize [bits=32, in=mappedF12_reads_R1_reduced.fastq, in2=mappedF12_reads_R2_reduced.fastq, out=plastomeReads_CovDepNormedAt500_R1.fastq, out2=plastomeReads_CovDepNormedAt500_R2.fastq, min=0, target=403]
+
+
+   ***********   Pass 1   **********   
+
+
+Settings:
+threads:          	12
+k:                	31
+deterministic:    	true
+toss error reads: 	false
+passes:           	1
+bits per cell:    	16
+cells:            	2172.02M
+hashes:           	3
+base min quality: 	5
+kmer min prob:    	0.5
+
+target depth:     	1612
+min depth:        	0
+max depth:        	2015
+min good kmers:   	15
+depth percentile: 	64.8
+ignore dupe kmers:	true
+fix spikes:       	false
+
+Made hash table:  	hashes = 3   	 mem = 4.04 GB   	cells = 2170.25M   	used = 0.911%
+
+Estimated unique kmers:     	6617109
+
+Table creation time:		11.414 seconds.
+Started output threads.
+Table read time: 		6.559 seconds.   	26029.58 kb/sec
+Total reads in:  		600000   	68.058% Kept
+Total bases in:  		170716705   	67.650% Kept
+Error reads in:  		98153    	16.359%
+Error pairs in:  		76126    	25.375%
+Error type 1:    		2059     	0.343%
+Error type 2:    		63752     	10.625%
+Error type 3:    		97348     	16.225%
+Total kmers counted:          	152693924
+Total unique kmer count:      	13275417
+Includes forward kmers only.
+The unique kmer estimate can be more accurate than the unique count, if the tables are very full.
+The most accurate value is the greater of the two.
+
+Percent unique:               	 8.69%
+Depth average:                	11.50	(unique kmers)
+Depth median:                 	1	(unique kmers)
+Depth standard deviation:     	118.12	(unique kmers)
+Corrected depth average:      	11.50	
+
+Depth average:                	1224.60	(all kmers)
+Depth median:                 	850	(all kmers)
+Depth standard deviation:     	1096.48	(all kmers)
+
+Approx. read depth median:    	950.19
+
+   ***********   Pass 2   **********   
+
+
+Settings:
+threads:          	12
+k:                	31
+deterministic:    	true
+toss error reads: 	false
+passes:           	1
+bits per cell:    	16
+cells:            	2172.02M
+hashes:           	3
+base min quality: 	5
+kmer min prob:    	0.5
+
+target depth:     	403
+min depth:        	0
+max depth:        	403
+min good kmers:   	15
+depth percentile: 	54.0
+ignore dupe kmers:	true
+fix spikes:       	false
+
+Made hash table:  	hashes = 3   	 mem = 4.04 GB   	cells = 2170.25M   	used = 0.678%
+
+Estimated unique kmers:     	4924490
+
+Table creation time:		4.409 seconds.
+Started output threads.
+Table read time: 		3.629 seconds.   	31820.20 kb/sec
+Total reads in:  		408348   	67.045% Kept
+Total bases in:  		115490591   	67.187% Kept
+Error reads in:  		54833    	13.428%
+Error pairs in:  		42785    	20.955%
+Error type 1:    		2450     	0.600%
+Error type 2:    		45177     	11.063%
+Error type 3:    		54021     	13.229%
+Total kmers counted:          	103229645
+Total unique kmer count:      	9476524
+Includes forward kmers only.
+The unique kmer estimate can be more accurate than the unique count, if the tables are very full.
+The most accurate value is the greater of the two.
+
+Percent unique:               	 9.18%
+Depth average:                	10.89	(unique kmers)
+Depth median:                 	1	(unique kmers)
+Depth standard deviation:     	78.44	(unique kmers)
+Corrected depth average:      	10.89	
+
+Depth average:                	575.77	(all kmers)
+Depth median:                 	587	(all kmers)
+Depth standard deviation:     	314.21	(all kmers)
+
+Approx. read depth median:    	656.65
+
+Removing temp files.
+
+Total time:      		26.120 seconds.   	10957.42 kb/sec
