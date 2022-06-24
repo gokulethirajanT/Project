@@ -8,4 +8,4 @@
 #Week 7 : Mathematical Modeling for Epithelial to Mesenchymal Transition (EMT) \
 #Week 8 : The ’Repressilator’ Model from MB Elowitz and S Leibler with the software Copasi \
 #Week 9 : CobraPy: Modeling and Simulation of complex biological systems \
-#Week 10: NetworkX: the protein interaction network of Homo sapiens by comparing it to an Erdos-R ́enyi network. \
+#Week 10: NetworkX: the protein interaction network of Homo sapiens by comparing it to an Erdos-R ́enyi network. 
