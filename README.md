@@ -3,7 +3,7 @@
 #Week 2 : Machine Learning Algorithms: Breast Cancer Sensitivity \
 #Week 3 : Deep Learning Algorithms: BreaKHis Dataset \
 #Week 4 : PySpark: Stroke Detection \
-#Week 5 : RegSeq Databases: NCBI accession code extraction \
+#Week 5 : RefSeq Databases: NCBI accession code extraction \
 #Week 6 : Gene Assembly: Water Lily Dataset, Visualisation \
 #Week 7 : Mathematical Modeling for Epithelial to Mesenchymal Transition (EMT) \
 #Week 8 : The ’Repressilator’ Model from MB Elowitz and S Leibler with the software Copasi \
