@@ -1,0 +1,59 @@
+---
+title: "Project Week 5"
+author: "Sina Glöckner"
+date: "25.11.2021"
+output: html_document
+---
+
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. 
+
+The visualisation (goal 2) of our results from data mining can be seen here.
+
+First, we import the necessary libraries. `tidyverse` is a package for data transformation and visualisation. `libridate` is used to handel dates.
+
+```{r libraries, echo=FALSE}
+require(tidyverse)
+require(lubridate)
+```
+
+In our next step, the data is imported. To this end, a file `TEAM3QUERY_UIDs_Dates.txt` is opened. 
+
+```{r import_data}
+data_raw_tbl <- read_delim("TEAM3QUERY_UIDs_Dates.txt", delim = ";",
+                           col_types = cols(X1 = col_character(), X2 = col_date()),
+                           col_names = c("AccessionNr", "Date"))
+data_raw_tbl %>% arrange(Date) %>% rmarkdown::paged_table()
+```
+
+Next we count the Number of Sequences per Date and visualize this.
+
+```{r}
+data_raw_tbl %>%
+  mutate(Date = floor_date(Date, unit = "month")) %>%
+  count(Date, name = "#Sequences") %>%
+  ggplot(aes(x = Date, y = `#Sequences`))+
+  geom_bar(stat = "identity")+
+  scale_x_date(NULL, date_labels = "%b-%y", breaks = "month")+#, limits =  c(as.Date("2019-12-30"), as.Date("2021-01-01")) )+
+  labs(title = "Number of Sequences per Month in 2020", y = "# Sequences")
+```
+
+Another possible visualisation is the cumultative growth. 
+
+```{r}
+data_raw_tbl  %>%
+  mutate(Date = floor_date(Date, unit = "month"))  %>% 
+  ggplot(aes(x = Date))+
+  geom_histogram(stat = "count", aes(y = cumsum(..count..)))+
+  scale_x_date(NULL, date_labels = "%b-%y", breaks = "month")+
+  labs(title = "Cumultative of Sequences per Month in 2020", y = "# Sequences")
+```
+
+
+
+This image is saved with `ggsave()`.
+
+```{r save_plot, eval=FALSE}
+ggsave("cumultative.png", dpi = 300, width = 7, height = 5)
+```
+
