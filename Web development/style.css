@@ -1,6 +1,19 @@
+ol{
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+}
+
 #Cardiac{
     color: red;
 }
 .Testtype{
     color: blue
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+*{
+    text-align: center;
 }
