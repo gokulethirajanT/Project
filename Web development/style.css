@@ -3,9 +3,12 @@ ol{
     margin-top: -20px;
     list-style-position: inside;
 }
-
+body{
+    overflow-x: hidden;
+}
 #Cardiac{
-    color: red;
+    color: #232D3F;
+    font-family: 'Playfair Display', serif;
 }
 .Testtype{
     color: blue
@@ -17,3 +20,96 @@ img{
 *{
     text-align: center;
 }
+.heading{
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #363062;
+    background-color: #FF8080;
+    width: 50%;
+    margin-left: 25%;
+}
+.test1{
+    padding: 10px;  
+    margin: 10px;
+    border: 10px solid A9A9A9;
+    background-color: #FFCF96;
+    width: 50%;
+    margin-right: 25%;
+    border: 10px solid #363062;
+    border-style: outset;
+    border-start-end-radius: 1rem 1rem;
+    font-family: 'Playfair Display', serif;
+}
+.test2{
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #A9A9A9;
+    background-color: #F6FDC3;
+    width: 50%;
+    margin-left: 25.7%;
+    border: 10px solid #363062;
+    border-style: outset;
+    border-start-end-radius: 1rem 1rem;
+    font-family: 'Playfair Display', serif;
+}
+.test3{
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #A9A9A9;
+    background-color: #CDFAD5;
+    width: 50%;
+    margin-left: 45%;
+    border: 10px solid #363062;
+    border-style: outset;
+    border-start-end-radius: 1rem 1rem;
+    font-family: 'Playfair Display', serif;
+}
+.test4{
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid A9A9A9;
+    background-color: #419197;
+    width: 50%;
+    margin-left: 25.7%;
+    border: 10px solid #363062;
+    border-style: outset;
+    border-start-end-radius: 1rem 1rem;
+    font-family: 'Playfair Display', serif;
+}
+.test5{
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid A9A9A9;
+    background-color: #78D6C6;
+    width: 50%;
+    margin-right: 25%;
+    border: 10px solid #363062;
+    border-style: outset;
+    border-start-end-radius: 1rem 1rem;
+    font-family: 'Playfair Display', serif;
+}
+.test6{
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid A9A9A9;
+    background-color: #F5FCCD;
+    width: 50%;
+    margin-left: 25.7%;
+    border: 10px solid #363062;
+    border-style: outset;
+    border-start-end-radius: 1rem 1rem;
+    font-family: 'Playfair Display', serif;
+}
+.test7{
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid A9A9A9;
+    background-color: #008170;  
+    width: 50%;
+    margin-left: 45%;
+    border: 10px solid #363062;
+    border-style: outset;
+    border-start-end-radius: 1rem 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
