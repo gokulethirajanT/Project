@@ -6,19 +6,58 @@ ol{
 body{
     overflow-x: hidden;
 }
+.title{
+    display: block;
+    background-color: #008170;
+    height: 50px;
+}
+.title > header{
+    font-family: 'Playfair Display', serif;
+    
+}
 #Cardiac{
     color: #232D3F;
     font-family: 'Playfair Display', serif;
+
+}
+.heartlogo{
+    width: 50%;
 }
 .Testtype{
     color: blue
-}
+} 
+.heading{
+    padding-bottom: 4%;
+    border-radius: 2%;
+    position: relative;
+}  
 img{
     height: 200px;
     width: 200px;
 }
 *{
     text-align: center;
+}
+.test1 img{
+    width: 50%;
+}
+.test2 img{
+    width: 50%;
+}
+.test3 img{
+    width: 50%;
+}
+.test4 img{
+    width: 50%;
+}
+.test5 img{
+    width: 50%;
+}
+.test6 img{
+    width: 50%;
+}
+.test7 img{
+    width: 50%;
 }
 .heading{
     padding: 10px;
@@ -39,6 +78,8 @@ img{
     border-style: outset;
     border-start-end-radius: 1rem 1rem;
     font-family: 'Playfair Display', serif;
+    padding-bottom: 4%;
+    display: inline-block;
 }
 .test2{
     padding: 10px;
@@ -51,6 +92,7 @@ img{
     border-style: outset;
     border-start-end-radius: 1rem 1rem;
     font-family: 'Playfair Display', serif;
+    padding-bottom: 4%;
 }
 .test3{
     padding: 10px;
@@ -63,6 +105,7 @@ img{
     border-style: outset;
     border-start-end-radius: 1rem 1rem;
     font-family: 'Playfair Display', serif;
+    padding-bottom: 4%;
 }
 .test4{
     padding: 10px;
@@ -75,6 +118,7 @@ img{
     border-style: outset;
     border-start-end-radius: 1rem 1rem;
     font-family: 'Playfair Display', serif;
+    padding-bottom: 4%;
 }
 .test5{
     padding: 10px;
@@ -87,6 +131,7 @@ img{
     border-style: outset;
     border-start-end-radius: 1rem 1rem;
     font-family: 'Playfair Display', serif;
+    padding-bottom: 4%;
 }
 .test6{
     padding: 10px;
@@ -99,6 +144,7 @@ img{
     border-style: outset;
     border-start-end-radius: 1rem 1rem;
     font-family: 'Playfair Display', serif;
+    padding-bottom: 4%;
 }
 .test7{
     padding: 10px;
@@ -111,5 +157,6 @@ img{
     border-style: outset;
     border-start-end-radius: 1rem 1rem;
     font-family: 'Playfair Display', serif;
+    padding-bottom: 4%;
 }
 
