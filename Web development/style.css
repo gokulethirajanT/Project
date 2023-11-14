@@ -30,11 +30,7 @@ body{
 .testtype{
     color: black
 } 
-.heading{
-    padding-bottom: 4%;
-    border-radius: 2%;
-    position: relative;
-}  
+
 img{
     height: 200px;
     width: 200px;
@@ -71,24 +67,29 @@ img{
     border-radius: 5%;
 }
 .heading{
+    border-radius: 2%;
+    position: relative; 
     padding: 10px;
     margin: 10px;
     border: 10px solid #363062;
     background-color: #2c83c0;
     width: 50%;
-    margin-left: 25%;
+    padding-bottom: 5%;
+    margin-bottom: 10px;
+    margin-left: 25.7%;
 }
 .test1{
-    padding: 10px;  
+    padding: 10px;      
     margin: 10px;
     border: 10px solid #A9A9A9;
     background-color: #007aff;
     width: 50%;
     border: 10px solid #363062;
     border-style: outset;
-    border-start-end-radius: 1rem 1rem;
+    border-start-end-radius: 1rem 1rem; 
     font-family: 'Playfair Display', serif;
     padding-bottom: 4%;
+    margin-top: 30px;
 
     
 }
@@ -169,5 +170,8 @@ img{
     border-start-end-radius: 1rem 1rem;
     font-family: 'Playfair Display', serif;
     padding-bottom: 4%;
+}
+.text1{
+font-size: larger;
 }
 
