@@ -1,0 +1,79 @@
+body{
+    background-color: #A9A9A9;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+    list-style-position: inside;
+}
+
+.title{
+    display: block;
+    width: 100%;
+    background-color: #FECDA6;
+    height: 121px;
+    border: 2px solid black;         
+}
+.title > header{
+    font-size: 50px;
+    color: black;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+   
+.content{
+    display: block;
+    width:100%;
+    background-color: #FF9130;  
+    height: 75px;
+    border: 2px solid black;
+}
+.content > p {
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+.morning{
+    background-color: #FF5B22;
+    font-size: 40px;
+    text-align: center;
+    height: 50px;
+    position: relative;
+    bottom: 50px;
+}  
+
+.head1{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 200;
+
+}
+.citrus > a img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    float: right;
+    position: absolute;
+    left: 10%;
+}
+.citrustext{
+    font: bolder;
+    position: absolute;
+    left: 30%;
+    font-size: 0.7 rem;
+}
+.kefir > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    padding: 30px;
+    margin: 30px;
+    float: right;
+    position: absolute;
+    top:60%;
+    left: 6%;
+}  
+
