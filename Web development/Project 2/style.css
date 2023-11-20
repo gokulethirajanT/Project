@@ -68,12 +68,40 @@ body{
 .kefir > img{
     width: 200px;
     height: 200px;
-    border-radius: 5%;
-    padding: 30px;
-    margin: 30px;
-    float: right;
+    border-radius: 5%;;
     position: absolute;
-    top:60%;
-    left: 6%;
+    top: 70%;
+    left: 10%;  
 }  
+.kefirtext{
+    font: bolder;
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    font-size: 0.7 rem;
+}
+.pumpkin > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    position: absolute;
+    top: 100%;
+     left: 10%; 
+}
+.pumpkintext{
+    font: bolder;
+    position: absolute;
+    left: 30%;
+    top: 100%;
+    font-size: 0.7 rem;
+}
 
+.head2{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 200;
+    position: absolute;
+    top :130%;
+    left: 40%;
+}
