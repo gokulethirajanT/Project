@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana,Geneva,sans-serif; 
+}
+
+.container1{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    justify-content: space-evenly;
+    background-color: #013476;
+    color: white;
+    font-size: 15px;
+
+}
+.container2{
+    display:inline-flex;
+    align-items: stretch;
+    background-color: #a3d8f6;
+    height: 200px;
+    flex-direction: column;
+
+}
