@@ -8,6 +8,7 @@ function fibonacci(n) {
     return fib.slice(0, n); // Return only 'n' numbers from the sequence
   }
   
-  let n = 10; // Change this value for more numbers in the sequence
+  let n = 10; // Change this value for more numbers in the sequence output
   console.log(fibonacci(n));
+  
   
