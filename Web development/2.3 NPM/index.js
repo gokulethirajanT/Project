@@ -3,7 +3,7 @@
 // import generateName from "sillyname";
 
 
-// var sillyName = generateName();
+// var sillyName = generateName() function;
 
 import {randomSuperhero} from "superheroes";
 const superHero = randomSuperhero();
